@@ -1,0 +1,25 @@
+print("Hello, Advanced Computer Vision!")
+
+git add .
+git commit -m "Added preprocessing module"
+git push origin main
+
+Chapter 1
+Hand Tracking - Basics (Palm and Fingers)
+
+FrameWork - MEDIAPIPE (Google)
+
+
+Packages -
+opencv-python
+mediapipe
+
+Create a virtual environment 
+python -m venv venv
+
+Activate the virtual environment
+venv\Scripts\activate
+
+Packages - pip install
+opencv-python
+mediapipe
