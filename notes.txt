@@ -23,3 +23,15 @@ venv\Scripts\activate
 Packages - pip install
 opencv-python
 mediapipe
+
+Chapter - 2
+
+Pose Estimation - Basics 
+
+Chapter - 3 
+
+Face Estimation - Basics
+
+Chapter - 4 
+
+FaceMeshProject - Module

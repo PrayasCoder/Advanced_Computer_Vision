@@ -2,7 +2,8 @@ import cv2
 import time
 import PoseModule as pm
 
-cap = cv2.VideoCapture('PoseVideos/2.mp4')
+# cap = cv2.VideoCapture('PoseVideos/4.mp4')
+cap = cv2.VideoCapture(0)
 pTime = 0
 detector = pm.poseDetector()
 
@@ -12,7 +13,7 @@ while True:
         break
 
     # ✅ Resize video frame to fit laptop screen
-    img = cv2.resize(img, (1200, 700))
+    img = cv2.resize(img, (600, 1000))
 
     img = detector.findPose(img)
     lmList = detector.findPosition(img)
