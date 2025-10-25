@@ -35,3 +35,11 @@ Face Estimation - Basics
 Chapter - 4 
 
 FaceMeshProject - Module
+
+Gesture Volume Control (Project 1)
+
+import library - pycaw
+
+it is for volume control through hand
+
+created by AndreMiras/pycaw ( on github)
